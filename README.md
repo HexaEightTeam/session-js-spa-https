@@ -27,6 +27,6 @@
 </script>
 ```
 
-!!!Limitation : This authentication works only for Single Page Applications.  
-!!!
+**Limitation : This authentication works only for Single Page Applications.**  
+
 
