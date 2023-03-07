@@ -1,4 +1,4 @@
-# js-session-spa
+# Hexaight Session Libraries for Javascript
 
 ## Implement HexaEight Authentication in Javascript using the following steps
 
