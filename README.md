@@ -27,6 +27,12 @@
 </script>
 ```
 
+
+
 **Limitation : This authentication works only for Single Page Applications.**  
+
+**There is also a http authentication library in case you want to use HexaEight session over HTTP**
+
+**HexaEight Session implements application layer enncryption using authenticated encryption and hence does NOT depend on HTTPS for functionality**
 
 
