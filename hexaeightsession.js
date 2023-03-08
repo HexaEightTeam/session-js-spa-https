@@ -2,12 +2,10 @@ var HexaEight=function(){"use strict";var t={d:(e,n)=>{for(var i in n)t.o(n,i)&&
 				importScripts("https://unpkg.com/comlink/dist/umd/comlink.js");
 				//importScripts("https://cdn.jsdelivr.net/gh/hexaeight/session-lib-1.6.808/dotnet.js");
 	
-			      const importURL = URL.createObjectURL(
-			           new Blob([``importScripts(${JSON.stringify("https://cdn.jsdelivr.net/gh/hexaeight/session-lib-1.6.808/dotnet.js")});``], {
-			               type: 'application/javascript'
-			           })
-			      );
-				importScripts(importURL);
+
+				var importblob = new Blob([``importScripts(${JSON.stringify("https://cdn.jsdelivr.net/gh/hexaeight/session-lib-1.6.808/dotnet.js")});``], { type: "text/javascript" });
+				const importobjectURL = URL.createObjectURL(importblob);
+				importScripts(importobjectURL);
 
 				const sleep = ms => new Promise(r => setTimeout(r, ms));
 				const session = {
