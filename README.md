@@ -1,4 +1,4 @@
-# Hexaight Session Libraries for Javascript
+# Hexaight Session For Single Page Apps and Websites using JavaScript
 
 ## Implement HexaEight Authentication in Javascript using the following steps
 
