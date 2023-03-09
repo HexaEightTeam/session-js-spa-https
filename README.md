@@ -36,10 +36,14 @@
 
 Client ID can be obtained from Token server.  If you have not enabled https on token server, use session-js-spa-http repository for reference
 
+Sample Demos integrated using External Builder and/or Hosted on external sites.
+
+[Sessions Demo on nicepage.io](https://hexaeight-session.nicepage.io/) - Site was built using NicePage Free desktop tool and published to their site.
+More site will be added shortly to show case the capability of authenticating multiple external sites using a single self hosted token server
 
 **Limitation : This authentication works only for Single Page Applications.**  
 
-**There is also a http authentication library in case you want to use HexaEight session over HTTP**
+**There is also a http authentication library in case you want to use HexaEight session over HTTP. (Will be available shortly)**
 
 **HexaEight Session implements application layer enncryption using authenticated encryption and hence does NOT depend on HTTPS for functionality**
 
