@@ -38,7 +38,8 @@ Client ID can be obtained from Token server.  If you have not enabled https on t
 
 Sample Demos integrated using External Builder and/or Hosted on external sites.
 
-[Sessions Demo on nicepage.io](https://hexaeight-session.nicepage.io/) - Site was built using NicePage Free desktop tool and published to their site.
+[Sessions Demo on nicepage.io](https://hexaeight-session.nicepage.io/) - Site was built using NicePage Free desktop tool and published to their site. (Post authentication capabilities will be added to site shortly for demo purposes) 
+
 More site will be added shortly to show case the capability of authenticating multiple external sites using a single self hosted token server
 
 **Limitation : This authentication works only for Single Page Applications.**  
