@@ -24,17 +24,11 @@
 	const clientid  = "87ADEE......";
 	const tokenserverurl =  "https://mytokenserver:5000";
 	const state = await session.init(clientid,tokenserverurl);
- 
-    // Prevent page reload on refresh
-    window.addEventListener("beforeunload", function(e) {
-      e.preventDefault();
-      e.returnValue = "";
-    });
   }); 
 </script>
 ```
 
-Client ID can be obtained from Token server.  If you have not enabled https on token server, use session-js-spa-http repository for reference
+Client ID can be obtained from [Token server](https://github.com/HexaEightTeam/HexaEight-Token-Server).  
 
 Sample Demos integrated using External Builder and/or Hosted on external sites.
 
