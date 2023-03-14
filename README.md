@@ -48,7 +48,7 @@ Coming Soon...
 
 **Limitation : This authentication works only for Single Page Applications.**  
 
-**HexaEight Session implements application layer enncryption using authenticated encryption and hence does NOT depend on HTTPS for functionality. In case you are interested in authentication for http sites, it be available shortly)**
+**HexaEight Session implements application layer enncryption using authenticated encryption and hence does NOT depend on HTTPS for functionality. In case you are interested in authentication for http sites, the library will be available shortly)**
 
 
 
