@@ -35,12 +35,16 @@ Client ID can be obtained from [Token server](https://github.com/HexaEightTeam/H
 
 Sample Integrations
 
-**[Sessions Demo on mobirisesite.com](https://hexaeight-session.mobirisesite.com) - Fully functional authentication Site was built using Mobirise Fre desktop tool and published to their site using the Publish feature.**
+Static Web Site Generator tool Demos:
+
+**[Sessions Demo on mobirisesite.com](https://hexaeight-session.mobirisesite.com) - Fully functional authentication Site was built using Mobirise Free desktop tool and published to their site using the Publish feature.**
 
 **[Sessions Demo on nicepage.io](https://hexaeight-session.nicepage.io/) - Site was built using NicePage Free desktop tool and published to their site. (Post authentication capabilities will be added to site shortly for demo purposes)**
 
+Framework Demos :
 
-Additional integrations (Angular, React, Vue and more) will be added shortly to show case the capability of authenticating multiple external sites using a single self hosted token server
+Coming Soon...
+
 
 **Limitation : This authentication works only for Single Page Applications.**  
 
