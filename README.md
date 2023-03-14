@@ -39,7 +39,7 @@ Static Web Site Generator tool Demos:
 
 **[Sessions Demo on mobirisesite.com](https://hexaeight-session.mobirisesite.com) - Fully functional authentication Site was built using Mobirise Free desktop tool and published to their site using the Publish feature.**
 
-**[Sessions Demo on nicepage.io](https://hexaeight-session.nicepage.io/) - Site was built using NicePage Free desktop tool and published to their site. (Post authentication capabilities will be added to site shortly for demo purposes)**
+**[Sessions Demo on nicepage.io](https://hexaeight-session.nicepage.io/) - Site was built using NicePage Free desktop tool and published to their site.**
 
 Framework Demos :
 
@@ -48,8 +48,7 @@ Coming Soon...
 
 **Limitation : This authentication works only for Single Page Applications.**  
 
-**There is also a http authentication library in case you want to use HexaEight session over HTTP. (Will be available shortly)**
+**HexaEight Session implements application layer enncryption using authenticated encryption and hence does NOT depend on HTTPS for functionality. In case you are interested in authentication for http sites, it be available shortly)**
 
-**HexaEight Session implements application layer enncryption using authenticated encryption and hence does NOT depend on HTTPS for functionality**
 
 
