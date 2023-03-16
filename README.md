@@ -33,40 +33,10 @@
 
 Client ID can be obtained from [Token server](https://github.com/HexaEightTeam/HexaEight-Token-Server).  
 
-### Overview
+### HexaEight Authentication Overview
 
-# Architecture
+HexaEight provides authentication for your javascript application.  A single self hosted token server can protect single or multiple applications hosted on a single site or on multiple sites.  
 
-Below is the pictorial representation of the architecture and the relationship with the various components of HexaEight Authentication platform.
-
-!!! HexaEight Platform (IdP)
-HexaEight Platform manages identities, provides Identity Login tokens and issues Asymmetric shared Keys for specific destinations to Users and Machines.
-!!!
-!!! HexaEight Token Servers
-HexaEight Token Server manages authorization and fetches asymmetric shared keys for users and resource Servers in Client Applications
-!!!
-!!! HexaEight Middleware
-HexaEight Middleware is installed on Resource Servers and associated with a Client Application. HexaEight Middleware allows Resource servers to authenticate and communicate across Client Applications. Additionally, it decrypts all incoming and encrypts all outgoing requests to maintain data confidentiality as well as protecting them from potential attacks and unauthorized access
-!!!
-!!! HexaEight-Mobile-Authenticator
-HexaEight provides a Free Mobile app available for both Android and iOS that is used by end users to authenticate across applications, systems and devices.  The mobile application is also used by Application owners and administrators to authorize Machines Identities
-!!!
-
-
-
-<style>
-    .sample {
-        text-align: center;
-        color: #1956AF;
-        border-radius: 10px;
-        background-color: #E1EDFF;
-        border: 1px solid #1956AF;
-        padding-top: 20px;
-        margin-bottom: 20px;
-    }
-</style>
-
-### Applications and Resource Servers
 
 :::sample
 ```mermaid
