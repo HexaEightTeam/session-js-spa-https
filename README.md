@@ -94,29 +94,29 @@ erDiagram
         Resource-Servers {
         Uses HexaEight-Middleware
 	}
-	HexaEight-Token-Servers }|..|{ hexaeight-session.mobirisesite.com : protects
-        hexaeight-session.mobirisesite.com{
+	HexaEight-Token-Servers }|..|{ hexaeight-session-mobirisesite-com : protects
+        hexaeight-session-mobirisesite-com{
 	Uses HexaEight-Sessions
 	}
-	HexaEight-Token-Servers }|..|{ hexaeight-session.nicepage.io : protects
-        hexaeight-session.nicpage.io{
+	HexaEight-Token-Servers }|..|{ hexaeight-session-nicepage-io : protects
+        hexaeight-session-nicpage-io{
 	Uses HexaEight-Sessions
 	}
-	HexaEight-Token-Servers }|..|{ hexaeight-session.netlify.app : protects
-        hexaeight-session.netlify.app{
+	HexaEight-Token-Servers }|..|{ hexaeight-session-netlify-app : protects
+        hexaeight-session-netlify-app{
 	Uses HexaEight-Sessions
 	}
-	hexaeight-session.mobirisesite.com }|..|{ User : authenticates
+	hexaeight-session-mobirisesite-com }|..|{ User : authenticates
         User{
 	Uses HexaEight-Mobile-Authenticator
 	To   Login-Into-Application
 	}
-	hexaeight-session.nicpage.io }|..|{ User : authenticates
+	hexaeight-session-nicpage-io }|..|{ User : authenticates
         User{
 	Uses HexaEight-Mobile-Authenticator
 	To   Login-Into-Application
 	}
-	hexaeight-session.netlify.app }|..|{ User : authenticates
+	hexaeight-session-netlify-app }|..|{ User : authenticates
         User{
 	Uses HexaEight-Mobile-Authenticator
 	To   Login-Into-Application
