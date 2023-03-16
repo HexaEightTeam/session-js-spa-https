@@ -107,7 +107,7 @@ erDiagram
 	Uses HexaEight-Sessions
 	}
 	hexaeight-session-mobirisesite-com }|..|{ User : authenticates
-	hexaeight-session-nicpage-io }|..|{ User : authenticates
+	hexaeight-session-nicepage-io }|..|{ User : authenticates
 	hexaeight-session-netlify-app }|..|{ User : authenticates
 	User{
 	Uses HexaEight-Mobile-Authenticator
