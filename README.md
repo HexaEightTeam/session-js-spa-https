@@ -107,12 +107,12 @@ erDiagram
 	Uses HexaEight-Sessions
 	}
 	hexaeight-session-mobirisesite-com }|..|{ User : authenticates
-        User{
+	hexaeight-session-nicpage-io }|..|{ User : authenticates
+	hexaeight-session-netlify-app }|..|{ User : authenticates
+	User{
 	Uses HexaEight-Mobile-Authenticator
 	To   Login-Into-Application
 	}
-	hexaeight-session-nicpage-io }|..|{ User : authenticates
-	hexaeight-session-netlify-app }|..|{ User : authenticates
 
 ```
 ---
