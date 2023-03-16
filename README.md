@@ -162,7 +162,7 @@ A. Yes its possible to integrate HexaEight Sessions in Mobile Apps using our .NE
 
 ---
 
-**[Sessions Demo in REACT Application](https://hexaeight-session.netlify.app) -  Site hosted on Netlify and [Source is available here](https://github.com/HexaEightTeam/react-hexaeight-session-demo) 
+**[Sessions Demo in REACT Application](https://hexaeight-session.netlify.app) -  Site hosted on Netlify and [Source is available here](https://github.com/HexaEightTeam/react-hexaeight-session-demo)**
 
 ---
 
