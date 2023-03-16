@@ -114,10 +114,35 @@ erDiagram
 ```
 ---
 
+### HexaEight Session provides the following features post user authentication
 
+1. Application Layer Encryption / Decryption to any destination (Can be another user/resource)
+2. Data Protection to store user data in browser storage.
+3. Axios Instance to establish authenticated communiation with Resource servers.
+4. Fetch Instance - Coming soon
 
+(The demos do not showcase #3, but the same will be integrated into the demos shortly)
 
+---
+### Quick FAQ 
 
+Q. Can HexaEight Sesssion authenticate any Email Address?
+
+A. Yes, Any Email address, social, personal or work email address except temporary email addresses
+
+Q. Can HexaEight Session be deploy on Sites like Wix, HubSpot, Bubble, Medium, GitHub Pages ... ??
+
+A. HexaEight Session can be deployed anywhere by incorporating the above Javascript code. As long as the external site does not interfere with Vanilla Javascript, it would gel well with HexaEight Authentication, for example Wix uses Velo and does not allow direct access to DOM, so HexaEight Authentication may not work as expected. So you can try implementing HexaEight Session on any external site and if you run into problems, shout out to us and we will bee happy to help.
+
+Q. What prevents someone from cloning my static site and hosting it elsewhere. ??
+
+A. HexaEight Token Server will protect your static site from cloning and hosting it in a different domain.  When the user tries to authenticate on a cloned site, they will see the Unauthorized Client message. HexaEight Token server will only allow the authorized email users to login to your application
+
+Q. HexaEight session does not prompt for password during authentication, so how does the authentication work?
+
+A. Correct, HexaEight Session displays a QR Code after entering your email address. Upon displaying the first QR Code, you need to scan it using a Resource token which is available in Official HexaEight Mobile App. In order to use this Resource Identity token, you will need to type your hexaeight vault password associated with your email address. Once you see the message in the HexaEight Mobile App, stating the Client was authorized successfully you can move to the next step by clicking the PROCEED button. The second QR Code is a two-factor encrypted QR Code which needs to be scanned using Email Identity Token. This will reveal a 5 letter Code which can be typed into the Captcha box to complete the authentication. So to summarize, you will need to remember only one password to login to any application that implements HexaEight Session.
+
+---
 
 ## Sample Integrations/Demos
 
