@@ -33,19 +33,27 @@
 
 Client ID can be obtained from [Token server](https://github.com/HexaEightTeam/HexaEight-Token-Server).  
 
-##Sample Integrations
+## Sample Integrations
 
-###Static Web Site Generator tool Demos:
+---
+
+### Static Web Site Generator tool Demos:
 
 **[Sessions Demo on mobirisesite.com](https://hexaeight-session.mobirisesite.com) - Fully functional authentication Site was built using Mobirise Free desktop tool and published to their site using the Publish feature.**
 
+---
+
 **[Sessions Demo on nicepage.io](https://hexaeight-session.nicepage.io/) - Site was built using NicePage Free desktop tool and published to their site.**
 
-Framework Demos :
+---
 
-###REACT
+### REACT
 
 Sample Demo is hosted [HERE](https://hexaeight-session.netlify.app/) and Source is available [HERE](https://github.com/HexaEightTeam/react-hexaeight-session-demo) 
+
+### VUE
+
+Coming Soon...
 
 **Limitation : This authentication works only for Single Page Applications.**  
 
