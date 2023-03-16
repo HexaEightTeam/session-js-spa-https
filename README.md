@@ -117,11 +117,11 @@ erDiagram
 
 
 
-## Sample Integrations
+## Sample Integrations/Demos
 
----
 
 ### Static Web Site Generator tool Demos:
+---
 
 **[Sessions Demo on mobirisesite.com](https://hexaeight-session.mobirisesite.com) - Fully functional authentication Site was built using Mobirise Free desktop tool and published to their site using the Publish feature.**
 
