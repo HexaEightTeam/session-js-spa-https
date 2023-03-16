@@ -81,25 +81,20 @@ erDiagram
 
 ```mermaid
 erDiagram
-    Organization-A ||--|{ HexaEight-Token-Servers : deploys
-        Organization-A {
-        Employees Internal
-        Users External
-        Applications Interanet
-	Applications External
-	Resource-Servers Internal
-	}
 	HexaEight-Platform ||..|{ HexaEight-Token-Servers : protects
 	HexaEight-Token-Servers }|..|{ Resource-Servers : protects
         Resource-Servers {
         Uses HexaEight-Middleware
+	}
+	HexaEight-Token-Servers {
+	Self Hosted
 	}
 	HexaEight-Token-Servers }|..|{ hexaeight-session-mobirisesite-com : protects
         hexaeight-session-mobirisesite-com{
 	Uses HexaEight-Sessions
 	}
 	HexaEight-Token-Servers }|..|{ hexaeight-session-nicepage-io : protects
-        hexaeight-session-nicpage-io{
+        hexaeight-session-nicepage-io{
 	Uses HexaEight-Sessions
 	}
 	HexaEight-Token-Servers }|..|{ hexaeight-session-netlify-app : protects
