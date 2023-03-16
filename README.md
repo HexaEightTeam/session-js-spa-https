@@ -38,7 +38,7 @@ Client ID can be obtained from [Token server](https://github.com/HexaEightTeam/H
 HexaEight provides authentication for your javascript application.  A single self hosted token server can protect single or multiple applications hosted on a single site or on multiple sites.  
 
 
-:::sample
+
 ```mermaid
 erDiagram
     Organization-A ||--|{ HexaEight-Token-Servers : deploys
@@ -77,7 +77,56 @@ erDiagram
 	}
 
 ```
-:::
+
+
+```mermaid
+erDiagram
+    Organization-A ||--|{ HexaEight-Token-Servers : deploys
+        Organization-A {
+        Employees Internal
+        Users External
+        Applications Interanet
+	Applications External
+	Resource-Servers Internal
+	}
+	HexaEight-Platform ||..|{ HexaEight-Token-Servers : protects
+	HexaEight-Token-Servers }|..|{ Resource-Servers : protects
+        Resource-Servers {
+        Uses HexaEight-Middleware
+	}
+	HexaEight-Token-Servers }|..|{ hexaeight-session.mobirisesite.com : protects
+        hexaeight-session.mobirisesite.com{
+	Uses HexaEight-Sessions
+	}
+	HexaEight-Token-Servers }|..|{ hexaeight-session.nicepage.io : protects
+        hexaeight-session.nicpage.io{
+	Uses HexaEight-Sessions
+	}
+	HexaEight-Token-Servers }|..|{ hexaeight-session.netlify.app : protects
+        hexaeight-session.netlify.app{
+	Uses HexaEight-Sessions
+	}
+	hexaeight-session.mobirisesite.com }|..|{ User : authenticates
+        User{
+	Uses HexaEight-Mobile-Authenticator
+	To   Login-Into-Application
+	}
+	hexaeight-session.nicpage.io }|..|{ User : authenticates
+        User{
+	Uses HexaEight-Mobile-Authenticator
+	To   Login-Into-Application
+	}
+	hexaeight-session.netlify.app }|..|{ User : authenticates
+        User{
+	Uses HexaEight-Mobile-Authenticator
+	To   Login-Into-Application
+	}
+
+```
+
+
+
+
 
 
 
