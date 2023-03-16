@@ -77,7 +77,7 @@ erDiagram
 	}
 
 ```
-
+---
 
 ```mermaid
 erDiagram
@@ -112,18 +112,10 @@ erDiagram
 	To   Login-Into-Application
 	}
 	hexaeight-session-nicpage-io }|..|{ User : authenticates
-        User{
-	Uses HexaEight-Mobile-Authenticator
-	To   Login-Into-Application
-	}
 	hexaeight-session-netlify-app }|..|{ User : authenticates
-        User{
-	Uses HexaEight-Mobile-Authenticator
-	To   Login-Into-Application
-	}
 
 ```
-
+---
 
 
 
