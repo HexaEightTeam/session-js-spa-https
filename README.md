@@ -1,5 +1,7 @@
 # Hexaight Session For Single Page Apps and Websites using JavaScript
 
+**Build your Application using Any Static Site Generator and use HexaEight Token Server to Protect your Static Site App/Website
+
 ## Implement HexaEight Authentication in Javascript using the following steps
 
 1. Add the below script tag to the HEAD section
