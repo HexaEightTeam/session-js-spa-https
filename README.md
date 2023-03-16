@@ -130,7 +130,7 @@ erDiagram
 
 A. Yes, Any Email address, social, personal or work email address except temporary email addresses
 
-**Q. Can HexaEight Session be deploy on Sites like Wix, HubSpot, Bubble, Medium, GitHub Pages ... ??**
+**Q. Is it possble to deploy HexaEight Session on Sites like Wix, HubSpot, Bubble, Medium, GitHub Pages ... ??**
 
 A. HexaEight Session can be deployed anywhere by incorporating the above Javascript code. As long as the external site does not interfere with Vanilla Javascript, it would gel well with HexaEight Authentication, for example Wix uses Velo and does not allow direct access to DOM, so HexaEight Authentication may not work as expected. So you can try implementing HexaEight Session on any external site and if you run into problems, shout out to us and we will bee happy to help.
 
