@@ -33,9 +33,9 @@
 
 Client ID can be obtained from [Token server](https://github.com/HexaEightTeam/HexaEight-Token-Server).  
 
-Sample Integrations
+##Sample Integrations
 
-Static Web Site Generator tool Demos:
+###Static Web Site Generator tool Demos:
 
 **[Sessions Demo on mobirisesite.com](https://hexaeight-session.mobirisesite.com) - Fully functional authentication Site was built using Mobirise Free desktop tool and published to their site using the Publish feature.**
 
@@ -43,8 +43,9 @@ Static Web Site Generator tool Demos:
 
 Framework Demos :
 
-Coming Soon...
+###REACT
 
+Sample Demo is hosted [HERE](https://hexaeight-session.netlify.app/) and Source is available [HERE](https://github.com/HexaEightTeam/react-hexaeight-session-demo) 
 
 **Limitation : This authentication works only for Single Page Applications.**  
 
