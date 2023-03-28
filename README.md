@@ -1,4 +1,4 @@
-# Hexaight Session For Single Page Apps and Websites using JavaScript
+# Hexaight Session For Progressive/Single Page Apps and Websites using JavaScript
 
 **Build your Application using Any Static Site Generator and use HexaEight Token Server to Protect your Static Site App/Website**
 
