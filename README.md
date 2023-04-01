@@ -133,9 +133,7 @@ erDiagram
 
 1. Application Layer Encryption / Decryption to any destination (Can be another user/resource)
 2. Data Protection to store user data in browser storage.
-3. Axios Instance to establish authenticated communiation with Resource servers.
-
-(The demos do not showcase #3, but the same will be integrated into the demos shortly)
+3. An Axios Instance to establish authenticated communiation with Resource servers running HexaEight Sessions Middleware
 
 ---
 ### Quick FAQ 
