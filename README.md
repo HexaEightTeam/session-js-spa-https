@@ -1,5 +1,7 @@
 # Hexaight Session For Progressive/Single Page Apps and Websites using JavaScript
 
+![HexaEight-Sessions](https://github.com/HexaEightTeam/session-js-spa-https/blob/main/hexaeight--sessions.svg?raw=true)
+
 **Build your Application using Any Static Site Generator and use HexaEight Token Server to Protect your Static Site App/Website**
 
 ## Implement HexaEight Authentication in Javascript using the following steps
