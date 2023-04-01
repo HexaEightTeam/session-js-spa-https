@@ -45,10 +45,10 @@ Client ID can be obtained from [Token server](https://github.com/HexaEightTeam/H
 
 | Serial        | Demo Application Link   | Site Link  |
 | ------------- |:-----------------------:| ----------:|
-| 1. | #### [VueJS](https://hexaeight-session.netlify.app) | www.vuejs.org |
-| 2. |#### [REACT](https://hexaeight-session.netlify.app) | www.react.dev |
-| 3. |#### [MOBIRISE](https://hexaeight-session.mobirisesite.com) | www.mobirise.io |
-| 4. |#### [NICEPAGE](https://hexaeight-session.nicepage.io)| www.nicepage.io |
+| 1. | [VueJS](https://hexaeight-session.netlify.app) | www.vuejs.org |
+| 2.  [REACT](https://hexaeight-session.netlify.app) | www.react.dev |
+| 3. | [MOBIRISE](https://hexaeight-session.mobirisesite.com) | www.mobirise.io |
+| 4. | [NICEPAGE](https://hexaeight-session.nicepage.io)| www.nicepage.io |
 
 ### HexaEight Authentication Overview
 
@@ -162,33 +162,9 @@ A. Yes its possible to integrate HexaEight Sessions in Mobile Apps using our .NE
 
 ---
 
-## Sample Integrations/Demos
+**Limitations : This authentication works only for Single Page Applications.**  
 
-
-### Static Web Site Generator tool Demos:
----
-
-**[Sessions Demo on mobirisesite.com](https://hexaeight-session.mobirisesite.com) - 
-
----
-
-**[Sessions Demo on nicepage.io](https://hexaeight-session.nicepage.io/) - Site was built using NicePage Free desktop tool and published to their site.**
-
----
-
-**[Sessions Demo in REACT Application](https://hexaeight-session.netlify.app) -  Site hosted on Netlify and [Source is available here](https://github.com/HexaEightTeam/react-hexaeight-session-demo)**
-
----
-
-### VUE
-
-Coming Soon...
-
----
-
-**Limitation : This authentication works only for Single Page Applications.**  
-
-**HexaEight Session implements application layer enncryption using authenticated encryption and hence does NOT depend on HTTPS for functionality. In case you are interested in authentication for http sites, the library will be available shortly)**
+**HexaEight Session implements application layer enncryption using authenticated encryption and hence does NOT depend on HTTPS for functionality**
 
 
 
