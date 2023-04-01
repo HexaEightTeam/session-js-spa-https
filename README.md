@@ -1,25 +1,24 @@
-# Hexaight Session For Progressive/Single Page Apps and Websites using JavaScript
+# HexaEight Session For Front-End Application
+
+## Integrate Hexaight Session In Progressive/Single Page Apps, Static Websites using JavaScript
 
 ![HexaEight-Sessions](https://github.com/HexaEightTeam/session-js-spa-https/blob/main/hexaeight--sessions.svg?raw=true)
 
-**Build your Application using Any Static Site Generator and use HexaEight Token Server to Protect your Static Site App/Website**
+## How To Integrate HexaEight Sessions
 
-## Implement HexaEight Authentication in Javascript using the following steps
-
-1. Add the below script tag to the HEAD section
+1. Build your Front-End App using your favorite Static Site Generator or Site Builders
+2. Implement HexaEight Authentication in Javascript by adding the below script tags to the HEAD section
 
 ```
 	<script src="https://cdn.jsdelivr.net/gh/hexaeightteam/session-js-spa-https/hexaeightsession.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/gh/hexaeightteam/session-js-spa-https/hexaeightaxios.js"></script>
 ```
-(NPM version will be released soon...)
 
-2. Add JQuery in case you wish to use $.
+3. Generate your Application Client ID using HexaEight Token Server and use the below code to activate HexaEight Sessions using JQuery.
 
 ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-
 
 <script>
   // Script your Call back function to initialize Application post authetication. 
@@ -34,6 +33,10 @@
   }); 
 </script>
 ```
+
+4. Generate your [Client Application SHA512 Hash)(https://passwordsgenerator.net/sha512-hash-generator/) and enable access for your application in HexaEight Token Server. So if your hosting your client application in dashboard.mydomain.com, then your client hash will be SHA512 of dashboard.mydomain.com which is 85EB85A9484217374C95A62B1B5F8E3FC6FB691584B442F6B82D6CAFE3D1C818C716BDAEA0E5E6D07D647AFD51546B268080D19CA2C13F8095DF6BC9C27EB985 (all upper case).
+
+5. Launch your front end application and you should see a login page to authennticate users.
 
 Client ID can be obtained from [Token server](https://github.com/HexaEightTeam/HexaEight-Token-Server).  
 
@@ -121,7 +124,6 @@ erDiagram
 1. Application Layer Encryption / Decryption to any destination (Can be another user/resource)
 2. Data Protection to store user data in browser storage.
 3. Axios Instance to establish authenticated communiation with Resource servers.
-4. Fetch Instance - Coming soon
 
 (The demos do not showcase #3, but the same will be integrated into the demos shortly)
 
