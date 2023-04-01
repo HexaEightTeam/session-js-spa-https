@@ -46,7 +46,7 @@ Client ID can be obtained from [Token server](https://github.com/HexaEightTeam/H
 | Serial        | Demo Application Link   | Site Link  |
 | ------------- |:-----------------------:| ----------:|
 | 1. | [VueJS](https://hexaeight-session.netlify.app) | www.vuejs.org |
-| 2. | [REACT](https://hexaeight-session.netlify.app) | www.react.dev |
+| 2. | [REACT](https://hexaeight-session-react.netlify.app/) | www.react.dev |
 | 3. | [MOBIRISE](https://hexaeight-session.mobirisesite.com) | www.mobirise.io |
 | 4. | [NICEPAGE](https://hexaeight-session.nicepage.io)| www.nicepage.io |
 
