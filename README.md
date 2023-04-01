@@ -40,6 +40,26 @@
 
 Client ID can be obtained from [Token server](https://github.com/HexaEightTeam/HexaEight-Token-Server).  
 
+### Demos / Integrations
+
+---
+![VueJS)(https://vuejs.org/logo.svg)
+
+--- 
+![Mobirise Site Builder](https://mobirise.com/assets52/images/logo.webp) Mobirise
+
+[Mobirise Free desktop tool was used to build and publish this Site](https://hexaeight-session.mobirisesite.com)
+
+---
+
+![Nice Page Site Builder]([https://mobirise.com/assets52/images/logo.webp](https://csite.nicepage.com/Images/logo-w.png))
+
+[Nice Page desktop was used to build and publish this Site](https://hexaeight-session.nicepage.io)
+
+---
+
+
+
 ### HexaEight Authentication Overview
 
 HexaEight provides authentication for your javascript application.  A single self hosted token server can protect single or multiple applications hosted on a single site or on multiple sites.  
@@ -158,7 +178,7 @@ A. Yes its possible to integrate HexaEight Sessions in Mobile Apps using our .NE
 ### Static Web Site Generator tool Demos:
 ---
 
-**[Sessions Demo on mobirisesite.com](https://hexaeight-session.mobirisesite.com) - Fully functional authentication Site was built using Mobirise Free desktop tool and published to their site using the Publish feature.**
+**[Sessions Demo on mobirisesite.com](https://hexaeight-session.mobirisesite.com) - 
 
 ---
 
