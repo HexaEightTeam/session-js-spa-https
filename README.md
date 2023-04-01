@@ -140,7 +140,7 @@ A. HexaEight Session can be deployed anywhere by incorporating the above Javascr
 
 **Q. What prevents someone from cloning my static site and hosting it elsewhere. ??**
 
-A. HexaEight Token Server will protect your static site from cloning and hosting it in a different domain.  When the user tries to authenticate on a cloned site, they will see the Unauthorized Client message. HexaEight Token server will only allow the authorized email users to login to your application
+A. HexaEight Token Server will only authorize HexaEight Sessions based on Client Hashes to protect your static site from cloning and hosting it in a different domain. So when the user tries to authenticate on a cloned site, they will see the Unauthorized Client message because HexaEight Token server will automatically detect that the request is originating from a different site and block the request.
 
 **Q. HexaEight session does not prompt for password during authentication, so how does the authentication work?**
 
