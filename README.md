@@ -42,21 +42,16 @@ Client ID can be obtained from [Token server](https://github.com/HexaEightTeam/H
 
 ### Demos / Integrations
 
----
-![VueJS)(https://vuejs.org/logo.svg)
+#### [VueJS](https://hexaeight-session.netlify.app) - www.vuejs.org
 
---- 
-![Mobirise Site Builder](https://mobirise.com/assets52/images/logo.webp) Mobirise
+#### [REACT](https://hexaeight-session.netlify.app) - www.react.dev
 
-[Mobirise Free desktop tool was used to build and publish this Site](https://hexaeight-session.mobirisesite.com)
+#### [MOBIRISE](https://hexaeight-session.mobirisesite.com) - www.mobirise.io
 
----
-
-![Nice Page Site Builder]([https://mobirise.com/assets52/images/logo.webp](https://csite.nicepage.com/Images/logo-w.png))
-
-[Nice Page desktop was used to build and publish this Site](https://hexaeight-session.nicepage.io)
+#### [NICEPAGE](https://hexaeight-session.nicepage.io) - www.nicepage.io
 
 ---
+
 
 
 
