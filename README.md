@@ -106,6 +106,14 @@ erDiagram
 	HexaEight-Token-Servers {
 	Self Hosted
 	}
+	HexaEight-Token-Servers }|..|{ hexaeight-session-netlify-app : protects
+        hexaeight-session-netlify-app{
+	Uses HexaEight-Sessions
+	}
+	HexaEight-Token-Servers }|..|{ hexaeight-session-react-netlify-app : protects
+        hexaeight-session-react-netlify-app{
+	Uses HexaEight-Sessions
+	}
 	HexaEight-Token-Servers }|..|{ hexaeight-session-mobirisesite-com : protects
         hexaeight-session-mobirisesite-com{
 	Uses HexaEight-Sessions
@@ -114,13 +122,10 @@ erDiagram
         hexaeight-session-nicepage-io{
 	Uses HexaEight-Sessions
 	}
-	HexaEight-Token-Servers }|..|{ hexaeight-session-netlify-app : protects
-        hexaeight-session-netlify-app{
-	Uses HexaEight-Sessions
-	}
 	hexaeight-session-mobirisesite-com }|..|{ User : authenticates
 	hexaeight-session-nicepage-io }|..|{ User : authenticates
 	hexaeight-session-netlify-app }|..|{ User : authenticates
+	hexaeight-session-react-netlify-app }|..|{ User : authenticates
 	User{
 	Uses HexaEight-Mobile-Authenticator
 	To   Login-Into-Application
