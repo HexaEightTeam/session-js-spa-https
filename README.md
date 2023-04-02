@@ -43,12 +43,12 @@ Client ID can be obtained from [Token server](https://github.com/HexaEightTeam/H
 ### Demos / Integrations
 
 
-| Serial        | Demo Application Link   | Site Link  |
-| ------------- |:-----------------------:| ----------:|
-| 1. | [VueJS](https://hexaeight-session.netlify.app) | www.vuejs.org |
-| 2. | [REACT](https://hexaeight-session-react.netlify.app/) | www.react.dev |
-| 3. | [MOBIRISE](https://hexaeight-session.mobirisesite.com) | www.mobirise.com |
-| 4. | [NICEPAGE](https://hexaeight-session.nicepage.io)| www.nicepage.io |
+| Serial        | Demo Application Link   | Site Link  | Source Code Link |
+| ------------- |:-----------------------:| ----------:|---------------------:
+| 1. | [VueJS](https://hexaeight-session.netlify.app) | www.vuejs.org | [Source](https://github.com/HexaEightTeam/vuejs-authentication-using-hexaeight-sessions)|
+| 2. | [REACT](https://hexaeight-session-react.netlify.app/) | www.react.dev | [Source](https://github.com/HexaEightTeam/react-authentication-using-hexaeight-session)|
+| 3. | [MOBIRISE](https://hexaeight-session.mobirisesite.com) | www.mobirise.com ||
+| 4. | [NICEPAGE](https://hexaeight-session.nicepage.io)| www.nicepage.io ||
 
 ### HexaEight Authentication Overview
 
@@ -122,10 +122,10 @@ erDiagram
         hexaeight-session-nicepage-io{
 	Uses HexaEight-Sessions
 	}
-	hexaeight-session-mobirisesite-com }|..|{ User : authenticates
-	hexaeight-session-nicepage-io }|..|{ User : authenticates
 	hexaeight-session-netlify-app }|..|{ User : authenticates
 	hexaeight-session-react-netlify-app }|..|{ User : authenticates
+	hexaeight-session-mobirisesite-com }|..|{ User : authenticates
+	hexaeight-session-nicepage-io }|..|{ User : authenticates
 	User{
 	Uses HexaEight-Mobile-Authenticator
 	To   Login-Into-Application
