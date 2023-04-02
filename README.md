@@ -15,7 +15,8 @@
 	<script src="https://cdn.jsdelivr.net/gh/hexaeightteam/session-js-spa-https/hexaeightaxios.js"></script>
 ```
 
-3. Generate your Application Client ID using HexaEight Token Server and use the below code to activate HexaEight Sessions using JQuery.
+3. Generate your Application Client ID using HexaEight Token Server and use the below code to activate HexaEight Sessions. 
+(In the below example wee aree using JQuery. Check out the demo samples for additional information)
 
 ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
