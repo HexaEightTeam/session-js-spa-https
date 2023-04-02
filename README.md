@@ -16,7 +16,7 @@
 ```
 
 3. Generate your Application Client ID using HexaEight Token Server and use the below code to activate HexaEight Sessions. 
-(In the below example wee aree using JQuery. Check out the demo samples for additional information)
+(In the below example wee are using JQuery. Check out the demo samples for additional information)
 
 ```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -35,7 +35,7 @@
 </script>
 ```
 
-4. Generate your [Client Application SHA512 Hash)(https://passwordsgenerator.net/sha512-hash-generator/) and enable access for your application in HexaEight Token Server. So if your hosting your client application in dashboard.mydomain.com, then your client hash will be SHA512 of dashboard.mydomain.com which is 85EB85A9484217374C95A62B1B5F8E3FC6FB691584B442F6B82D6CAFE3D1C818C716BDAEA0E5E6D07D647AFD51546B268080D19CA2C13F8095DF6BC9C27EB985 (all upper case).
+4. Generate your [Client Application SHA512 Hash](https://passwordsgenerator.net/sha512-hash-generator/) and enable access for your application in HexaEight Token Server. So if your hosting your client application in dashboard.mydomain.com, then your client hash will be SHA512 of dashboard.mydomain.com which is 85EB85A9484217374C95A62B1B5F8E3FC6FB691584B442F6B82D6CAFE3D1C818C716BDAEA0E5E6D07D647AFD51546B268080D19CA2C13F8095DF6BC9C27EB985 (all upper case).
 
 5. Launch your front end application and you should see a login page to authennticate users.
 
