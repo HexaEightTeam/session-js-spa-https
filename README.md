@@ -49,7 +49,7 @@ Client ID can be obtained from [Token server](https://github.com/HexaEightTeam/H
 | 1. | [VueJS](https://hexaeight-session.netlify.app) | www.vuejs.org | [Source](https://github.com/HexaEightTeam/vuejs-authentication-using-hexaeight-sessions)| Hosted as a Barebones Netlify.app and Runs on HTTPS|
 | 2. | [REACT](https://hexaeight-session-react.netlify.app/) | www.react.dev | [Source](https://github.com/HexaEightTeam/react-authentication-using-hexaeight-session)| Hosted as a Barebones Netlify.app and Runs on HTTPS |
 | 3. | [MOBIRISE](https://hexaeight-session.mobirisesite.com) | www.mobirise.com |[Project Source](https://github.com/HexaEightTeam/mobirise-hexaeight-session-sample-project)| Hosted On Mobirisesite and Runs on HTTPS | 
-| 4. | [NICEPAGE](https://hexaeight-session.nicepage.io)| www.nicepage.io | -- | **Hosted On Nicepage and Runs on HTTP**
+| 4. | [NICEPAGE](https://hexaeight-session.nicepage.io)| www.nicepage.io | -- | **Hosted On Nicepage and Runs on HTTP but is still SECURE**
 
 ### HexaEight Authentication Overview
 
