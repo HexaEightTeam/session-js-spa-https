@@ -1,4 +1,4 @@
-# HexaEight Session For Front-End Application
+# Tokenless Authentication For Front End WebSites and Apps Without using Backend-For-Frontend
 
 ## Integrate Hexaight Session In Progressive/Single Page Apps, Static Websites using JavaScript
 
